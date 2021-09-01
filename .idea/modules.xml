@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaworks.iml" filepath="$PROJECT_DIR$/javaworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWorks.iml" filepath="$PROJECT_DIR$/JavaWorks.iml" />
     </modules>
   </component>
 </project>
