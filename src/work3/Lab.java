@@ -29,21 +29,17 @@ public class Lab  extends JFrame
         for(int i = 0; i < pnl.length; i++) {
             pnl[i] = new JPanel();
             add(pnl[i]);
+            pnl[i].setLayout(new FlowLayout());
         }
         result.setFont(font);
         lastScorer.setFont(font);
         winner.setFont(font);
         realButton.setFont(font);
         milanButton.setFont(font);
-        pnl[0].setLayout(new FlowLayout());
         pnl[0].add(result);
-        pnl[1].setLayout(new FlowLayout());
         pnl[1].add(lastScorer);
-        pnl[2].setLayout(new FlowLayout());
         pnl[2].add(winner);
-        pnl[3].setLayout(new FlowLayout());
         pnl[3].add(realButton);
-        pnl[4].setLayout(new FlowLayout());
         pnl[4].add(milanButton);
         setVisible(true);
         milanButton.addMouseListener(new MouseListener() {
