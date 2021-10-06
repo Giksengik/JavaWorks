@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfc26f6-4233-479d-ade6-b84b54a50e2e" name="Default Changelist" comment="work 2">
-      <change afterPath="$PROJECT_DIR$/src/work3/Lab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/work7/Drunkard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/work2/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/work2/Movable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Lab">
+  <component name="RunManager" selected="Application.Drunkard">
     <configuration name="BallTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work1.BallTest" />
       <module name="JavaWorks" />
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work1.DogTest" />
+    <configuration name="Drunkard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work7.Drunkard" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work1.*" />
+          <option name="PATTERN" value="work7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,24 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Drunkard" />
         <item itemvalue="Application.Lab" />
         <item itemvalue="Application.ShapeTest" />
         <item itemvalue="Application.BallTest" />
         <item itemvalue="Application.BookTest" />
-        <item itemvalue="Application.DogTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +158,7 @@
       <workItem from="1631208855031" duration="34000" />
       <workItem from="1631208898466" duration="1000" />
       <workItem from="1631712448220" duration="4120000" />
+      <workItem from="1633527464604" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="First work completed">
       <created>1630507227223</created>
