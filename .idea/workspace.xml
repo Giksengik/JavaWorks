@@ -10,13 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfc26f6-4233-479d-ade6-b84b54a50e2e" name="Default Changelist" comment="work 6 done">
-      <change afterPath="$PROJECT_DIR$/src/work7/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work7/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work7/NumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work7/Owl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work7/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/work7/PetTest.java" afterDir="false" />
+    <list default="true" id="ebfc26f6-4233-479d-ade6-b84b54a50e2e" name="Default Changelist" comment="work 2">
+      <change afterPath="$PROJECT_DIR$/src/work7/Drunkard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +55,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.NumTest">
-    <configuration name="InsertsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work6.InsertsTest" />
+  <component name="RunManager" selected="Application.Drunkard">
+    <configuration name="BallTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work1.BallTest" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work6.*" />
+          <option name="PATTERN" value="work1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work6.MergeSortTest" />
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work1.BookTest" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work6.*" />
+          <option name="PATTERN" value="work1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work7.NumTest" />
+    <configuration name="Drunkard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work7.Drunkard" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work7.PetTest" />
+    <configuration name="Lab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work3.Lab" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work7.*" />
+          <option name="PATTERN" value="work3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work6.QuickSortTest" />
+    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work2.ShapeTest" />
       <module name="JavaWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work6.*" />
+          <option name="PATTERN" value="work2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumTest" />
-        <item itemvalue="Application.PetTest" />
-        <item itemvalue="Application.MergeSortTest" />
-        <item itemvalue="Application.QuickSortTest" />
-        <item itemvalue="Application.InsertsTest" />
+        <item itemvalue="Application.Drunkard" />
+        <item itemvalue="Application.Lab" />
+        <item itemvalue="Application.ShapeTest" />
+        <item itemvalue="Application.BallTest" />
+        <item itemvalue="Application.BookTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,10 +157,8 @@
       <workItem from="1631107659137" duration="7716000" />
       <workItem from="1631208855031" duration="34000" />
       <workItem from="1631208898466" duration="1000" />
-      <workItem from="1631712448220" duration="5366000" />
-      <workItem from="1631724606889" duration="80000" />
-      <workItem from="1633192553345" duration="5660000" />
-      <workItem from="1635751652431" duration="1372000" />
+      <workItem from="1631712448220" duration="4120000" />
+      <workItem from="1633527464604" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="First work completed">
       <created>1630507227223</created>
@@ -181,35 +174,7 @@
       <option name="project" value="LOCAL" />
       <updated>1631114947374</updated>
     </task>
-    <task id="LOCAL-00003" summary="work 3">
-      <created>1631717980725</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1631717980725</updated>
-    </task>
-    <task id="LOCAL-00004" summary="work 4 done">
-      <created>1633194468591</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1633194468591</updated>
-    </task>
-    <task id="LOCAL-00005" summary="work 5 done">
-      <created>1633194642512</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1633194642512</updated>
-    </task>
-    <task id="LOCAL-00006" summary="work 6 done">
-      <created>1633197583432</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1633197583432</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,115 +195,68 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First work completed" />
     <MESSAGE value="work 2" />
-    <MESSAGE value="work 3" />
-    <MESSAGE value="work 4 done" />
-    <MESSAGE value="work 5 done" />
-    <MESSAGE value="work 6 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="work 6 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="work 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1630505053900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1630505053900" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1635752388177">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1635752388177" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633196666321" />
-    <state x="506" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1633195231125">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1631114515514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="506" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1633195231125" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1631114515514" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1631208883297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631208883297" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1635753017026">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1635753017026" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633197565311" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1635753017026">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1635753017026" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633197565311" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1635753017026">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1635753017026" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633197565311" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1635753017026">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1635753017026" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633197565311" />
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1635752793081">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1635752793081" />
-    <state width="1493" height="312" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633196550209" />
-    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1635752793081">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1635752793081" />
-    <state width="1493" height="312" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633196550209" />
-    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1635752793081">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1635752793081" />
-    <state width="1493" height="312" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633196550209" />
-    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1635752793081">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1635752793081" />
-    <state width="1493" height="312" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633196550209" />
-    <state x="147" y="64" key="MergeDialog" timestamp="1633197618887">
+    <state width="1493" height="294" key="GridCell.Tab.0.bottom" timestamp="1631717132525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1633197618887" />
-    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1633197618893">
+    <state width="1493" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631717132525" />
+    <state width="1493" height="294" key="GridCell.Tab.0.center" timestamp="1631717132525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1633197618893" />
+    <state width="1493" height="294" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631717132525" />
+    <state width="1493" height="294" key="GridCell.Tab.0.left" timestamp="1631717132525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="294" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631717132525" />
+    <state width="1493" height="294" key="GridCell.Tab.0.right" timestamp="1631717132525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="294" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631717132525" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1630513218010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630513218010" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1630513218010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1630513218010" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1630513218010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1630513218010" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1630513218010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1630513218010" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1631108704852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631108704852" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1633197626002">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1631115246642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1633197626002" />
-    <state x="360" y="32" key="new project wizard" timestamp="1631724685409">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631115246642" />
+    <state x="360" y="32" key="new project wizard" timestamp="1630513662053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1631724685409" />
-    <state x="431" y="144" width="672" height="672" key="search.everywhere.popup" timestamp="1635752466622">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="360" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1630513662053" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1631716896917">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="144" width="672" height="672" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1635752466622" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631716896917" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/work6/QuickSortTest.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/work6/QuickSortTest.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/work7/PetTest.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
