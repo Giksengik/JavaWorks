@@ -1,8 +1,11 @@
 package work13;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -34,5 +37,16 @@ public class Main {
         return new ArrayList<>(Arrays.asList(array));
     }
 
+    static class CatalogReader {
+
+        public static void printFileNamesByUrl(String url) {
+            File directory = new File(url);
+            System.out.println(Arrays.stream(Objects.requireNonNull(directory.list())).limit(5).collect(Collectors.toList()));
+        }
+    }
+
+    public static void main(String[] args) {
+        CatalogReader.printFileNamesByUrl("..");
+    }
 
 }

@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class HorseRacing {
 
-    public void onFinish(int n) {
-        synchronized (this) {
-            System.out.println("Horse number " + n + " finished");
-        }
+    public synchronized void onFinish(int n) {
+        System.out.println("Horse number " + n + " finished");
     }
 
 
