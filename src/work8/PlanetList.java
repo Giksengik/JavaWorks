@@ -3,91 +3,40 @@ package work8;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
-public class PlanetList {
-
-    protected List<Planet> planets;
-
-    public PlanetList() {
-    }
-
-    public PlanetList(List<Planet> planets) {
-        this.planets = planets;
-    }
-
-    public List<Planet> getPlanets() {
-        return planets;
-    }
-
-    public PlanetList add(Planet toAdd) {
-        List<Planet> listCopy = new ArrayList<>();
-        Collections.copy(planets, listCopy);
-        listCopy.add(toAdd);
-        return new PlanetList(listCopy);
-    }
-
-    public PlanetList remove(int index) {
-        List<Planet> listCopy = new ArrayList<>();
-        Collections.copy(planets, listCopy);
-        listCopy.remove(index);
-        return new PlanetList(listCopy);
-    }
-
-    public Planet pickRandom() {
-        if(planets.size() > 0) {
-            Random rand = new Random();
-            int next = rand.nextInt(planets.size());
-            return planets.get(next);
-        }
-        return null;
-    }
-
-    public PlanetList shuffle() {
-        List<Planet> listCopy = new ArrayList<>();
-        Collections.copy(planets, listCopy);
-        Collections.shuffle(listCopy);
-        return new PlanetList(listCopy);
-
-    }
+public class PlanetList{
 
     // Находит планету с наибольшим радиусом
-    public double maxRadius() {
-        if(planets.size() > 0) {
-            double maxRadius = planets.get(0).radius;
-            for (Planet item : planets) {
-                if(item.radius > maxRadius)
-                    maxRadius = item.radius;
-            }
-            return maxRadius;
-        }
-        else throw new IllegalArgumentException("list size must be not empty to find max!");
+    public static Planet maxRadius(List<Planet> planets) {
+        return Collections.min(planets);
     }
 
     // Находит планету с наименьшим радиусом
-    public double minRadius() {
-        if(planets.size() > 0) {
-            double minRadius = planets.get(0).radius;
-            for (Planet item : planets) {
-                if(item.radius < minRadius)
-                    minRadius = item.radius;
-            }
-            return minRadius;
-        }
-        else throw new IllegalArgumentException("list size must be not empty to find min!");
+    public static Planet minRadius(List<Planet> planets) {
+        return Collections.max(planets);
     }
 
-    public int find(Planet planet) {
-        int count = 0;
-        for(Planet item : planets) {
-            if(item == planet)
-                return count;
-            count++;
-        }
-        return -1;
+    public static void shuffle(List<Planet> planets) {
+        Collections.shuffle(planets);
     }
 
-    public boolean contains(Planet planet) {
-        return planets.contains(planet);
+    public static void main(String[] args) {
+        List<Planet> mutablePlanets = new ArrayList<>();
+        mutablePlanets.add(new Planet("planet", 44));
+        mutablePlanets.add(new Planet("plann", 444));
+        mutablePlanets.add(new Planet("dososdfg", 434));
+        List<Planet> planets = Collections.unmodifiableList(mutablePlanets);
+        try {
+            planets.add(new Planet("dsg", 4355));
+        } catch (Exception e) {
+            System.out.println("unmodifiable");
+        }
+        mutablePlanets.add(new Planet("dds", 3434));
+        System.out.println(mutablePlanets);
+
+        System.out.println(minRadius(mutablePlanets));
+        System.out.println(maxRadius(mutablePlanets));
+        shuffle(mutablePlanets);
+        System.out.println(mutablePlanets);
     }
 }
